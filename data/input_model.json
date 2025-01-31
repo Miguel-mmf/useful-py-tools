@@ -1,0 +1,73 @@
+{
+    "employees": [
+        {
+            "name": "John Doe",
+            "age": 30,
+            "department": "Sales",
+            "email": "john.doe@example.com"
+        },
+        {
+            "name": "Jane Smith",
+            "age": 25,
+            "department": "Marketing",
+            "email": "jane.smith@example.com"
+        },
+        {
+            "name": "Emily Johnson",
+            "age": 35,
+            "department": "Development",
+            "email": "emily.johnson@example.com"
+        },
+        {
+            "name": "Alice Brown",
+            "age": 40,
+            "department": "Development",
+            "email": "alice.brow@example.com"
+        },
+        {
+            "name": "Bob White",
+            "age": 27,
+            "department": "Development",
+            "email": "bob.white@example.com"
+        },
+        {
+            "name": "Charlie Black",
+            "age": 45,
+            "department": "Development",
+            "email": "charlie.black@example.com"
+        }
+    ],
+    "company": {
+        "name": "Tech Solutions",
+        "location": {
+            "address": "123 Tech Street",
+            "city": "Tech City",
+            "country": "Techland",
+            "postal_code": "12345"
+        },
+        "departments": {
+            "Sales": {
+                "manager": "Alice Brown",
+                "employees_count": 10
+            },
+            "Marketing": {
+                "manager": "Bob White",
+                "employees_count": 8
+            },
+            "Development": {
+                "manager": "Charlie Black",
+                "employees_count": 15,
+                "projects": {
+                    "Project A": {
+                        "deadline": "2023-12-31",
+                        "budget": 100000
+                    },
+                    "Project B": {
+                        "deadline": "2024-06-30",
+                        "budget": 150000
+                    }
+                }
+            }
+        }
+    }
+}
